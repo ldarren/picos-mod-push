@@ -1,0 +1,24 @@
+{
+  "name": "picos-mod-push",
+  "version": "0.1.0",
+  "description": "web and device push notification for pico api server",
+  "main": "web.js",
+  "dependencies": {
+    "pico-args": "*",
+    "pico-common": "*",
+    "picos-session": "^0.1.0",
+    "picos-util": "^0.1.0",
+    "apn": "^1.7.5",
+    "node-gcm": "^0.14.3"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "webpush",
+    "push",
+    "notification"
+  ],
+  "author": "Darren Liew",
+  "license": "MIT"
+}
